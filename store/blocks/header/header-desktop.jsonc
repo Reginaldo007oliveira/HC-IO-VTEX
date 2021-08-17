@@ -16,7 +16,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass":  "main-header-desktop"
     },
     "children": [
       "flex-layout.col#logo-desktop",
