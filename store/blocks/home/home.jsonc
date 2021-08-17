@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "list-context.image-list#banner-home",
       "rich-text"
     ]
   },
