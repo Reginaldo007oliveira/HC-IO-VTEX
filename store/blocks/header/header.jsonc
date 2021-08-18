@@ -21,10 +21,11 @@
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "main-header-mobile",
+      
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass":  "main-header-desktop"
     }
   },
   "drawer": {

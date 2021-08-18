@@ -1,0 +1,14 @@
+{
+  
+  }
+   
+   
+    // "list-context.product-list#corinthians": {
+    //     "blocks": ["product-summary.shelf#home"],
+    //     "children": ["slider-layout#home"],
+    //     "props": {
+    //         "category": "20",
+    //         "hideUnavailableItems": true,
+    //         "blockClass": "products"
+    //     }
+    // }

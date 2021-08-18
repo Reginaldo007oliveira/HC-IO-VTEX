@@ -1,0 +1,56 @@
+ .container{
+    padding-bottom: 444px;
+    padding: 5px;
+}
+.contentContainer{
+   
+    background-color: #212121;
+  
+    border-radius: 50px;
+}
+
+
+
+.contentItem{
+   
+    background-color: #212121;
+    color: rgb(152, 224, 16);
+
+}
+
+.listContainer{
+  
+    background-color: #212121;
+}
+
+.listItem{
+   
+    background: #53e90e00;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.listItem:hover{
+    background-color: #b93d1d;
+    color: rgb(240, 208, 26);
+    background: #53e90e;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.listItemActive{
+    background-color: #e617a800;
+    color: rgb(240, 208, 26);
+
+}
+
+
+.listItemChildren{
+    background-color: #787af1;
+}
+
+.listItemChildrenActive{
+     background-color: #212121;
+    color: rgb(240, 208, 26);
+}
+ 

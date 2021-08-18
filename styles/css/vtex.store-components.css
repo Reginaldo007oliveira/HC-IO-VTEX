@@ -1,20 +1,7 @@
-.flexRowContent--main-header-desktop {
-    justify-content: space-around;
-    background-color: rgba(27, 252, 6, 0.65);
-  }
-  
-  .flexRowContent--login-menu .stretchChildrenWidth {
-    width: 100% !important;
-  }
-  
-  /* brand css */
-  
-  .flexRowContent--image-row {
-    display: grid;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  
-  .flexRowContent--image-row .stretchChildrenWidth {
-    width: 100% !important;
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 40px;
+    border-radius: 35px;
+    max-width: 500px;
+    width: 500px;
+    border: 1px solid rgb(55, 245, 17);
   }

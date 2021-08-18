@@ -1,0 +1,116 @@
+{
+
+    "tab-layout#home": {
+        "children": ["tab-list#home", "tab-content#home"
+        ],
+        "props": {
+              
+               "defaultActiveTabId": "home1"
+              
+               }
+      },
+      "tab-list#home": {
+        "children": ["tab-list.item#home1", "tab-list.item#home2","tab-list.item#home3","tab-list.item#home4"]
+      },
+      "tab-list.item#home1": {
+        "props": {
+          "tabId": "promocao",
+          "label": "PROMOÇÃO",
+          "blockClass": "newvibe",
+          "defaultActiveTab": true
+          
+        }
+      },
+      "tab-list.item#home2": {
+        "props": {
+          "label": "Corinthias",
+          "tabId": "Corinthias"
+        }
+      },
+
+      "tab-list.item#home3": {
+        "props": {
+          "label": "Palmeiras",
+          "tabId": "Palmeiras"
+        }
+      },
+
+      "tab-list.item#home4": {
+        "props": {
+          "label": "Signos",
+          "tabId": "Signos"
+        }
+      },
+
+
+
+      "tab-content#home": {
+        "children": ["tab-content.item#home1", "tab-content.item#home2","tab-content.item#home3","tab-content.item#home4"]
+      },
+
+
+
+
+
+      "tab-content.item#home1": {
+        "children": [ "list-context.image-list#banner-home"],
+        "props": {
+          "tabId": "promocao"
+        }
+      },
+
+
+      "tab-content.item#home2": {
+        "children": ["list-context.image-list#banner-home","rich-text#home2"],
+        "props": {
+          "tabId": "Corinthias"
+        }
+      },
+
+      "tab-content.item#home3": {
+        "children": ["rich-text#home3"],
+        "props": {
+          "tabId": "Palmeiras"
+        }
+      },
+
+      "tab-content.item#home4": {
+        "children": ["rich-text#home4"],
+        "props": {
+          "tabId": "Signos"
+        }
+      },
+
+
+      "rich-text#home1": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = promocao",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+
+      
+      "rich-text#home2": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = Corinthias",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+
+      "rich-text#home3": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = Palmeiras",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      },
+      "rich-text#home4": {
+        "props": {
+          "text": "Área do conteúdo da tab-list.item com  tabId = Signos",
+          "textPosition": "CENTER",
+          "font": "t-heading-3"
+        }
+      }
+}

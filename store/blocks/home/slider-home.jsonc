@@ -5,11 +5,11 @@
       "height": 650,
       "images": [
         {
-          "image": "",
+          "image":   "image#upmedal1",
           "description": "Banner Home"
         },
         {
-          "image": "",
+          "image": "image#upmedal2",
           "description": "Banner Home"
         }
       ]
@@ -22,7 +22,21 @@
         "tablet": 1,
         "phone": 1
       },
-      "infinite": true
+      "infinite": true,
+      "fullWidth": true
+    }
+  },
+  "image#upmedal1": {
+    "props": {
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/ecommerceUpmedalll.png ",
+      "maxHeight": 640
+    }
+  },
+  "image#upmedal2": {
+    "props": {
+      "src": "https://hiringcoders2021.vteximg.com.br/arquivos/ecommerceUpmedalll.png",
+      "maxHeight": 640
     }
   }
+
 }

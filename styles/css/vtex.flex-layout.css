@@ -1,6 +1,10 @@
+.flexRow--main-header-mobile{
+  background-color: #212121
+
+}
 .flexRowContent--main-header-desktop {
   justify-content: space-around;
-  background-color:#212121;
+  background-color: #212121;
 }
 
 .flexRowContent--login-menu .stretchChildrenWidth {
