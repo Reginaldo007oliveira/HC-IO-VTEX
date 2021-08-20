@@ -1,7 +1,9 @@
 .price{
-color:chartreuse;
-font-size: 33px;
+    color: rgb(0,250,0);
 }
-.productPriceContainer{
-  
+.deleteIcon{
+    color: rgb(0,250,0);
+}
+.productBrandName{
+    color: rgb(0,250,0);
 }

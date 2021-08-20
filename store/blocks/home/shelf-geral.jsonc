@@ -1,7 +1,7 @@
 {
  
     "list-context.product-list#UpMedal": {
-        "blocks": ["product-summary.shelf#cor"],
+        "blocks": ["product-summary.shelf#Geral"],
         "children": ["slider-layout#demo-productsUpMedal"],
         "props": {
           "orderBy": "OrderByTopSaleDESC"
@@ -22,7 +22,7 @@
         }
       },
     
-     "product-summary.shelf#cor": {
+     "product-summary.shelf#Geral": {
         "children": [
             "product-summary-name",
             //"product-summary-description",

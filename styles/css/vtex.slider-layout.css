@@ -26,3 +26,10 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+.caretIcon{
+  color: rgb(0,250,0);
+ 
+}
+.imageElement{
+  border-radius: 55px;
+}
