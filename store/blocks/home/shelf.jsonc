@@ -1,14 +1,35 @@
 {
-  
+ 
+    "list-context.product-list#UpMedal": {
+        "blocks": ["product-summary.shelf#cor"],
+        "children": ["slider-layout#demo-productsUpMedal"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+    
+    
+     "slider-layout#demo-productsUpMedal": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+      },
+    
+     "product-summary.shelf#cor": {
+        "children": [
+            "product-summary-name",
+            //"product-summary-description",
+            "product-summary-image",
+            "product-summary-price",
+            "product-summary-sku-selector",
+            "product-summary-buy-button"
+        ]
+      }
   }
-   
-   
-    // "list-context.product-list#corinthians": {
-    //     "blocks": ["product-summary.shelf#home"],
-    //     "children": ["slider-layout#home"],
-    //     "props": {
-    //         "category": "20",
-    //         "hideUnavailableItems": true,
-    //         "blockClass": "products"
-    //     }
-    // }

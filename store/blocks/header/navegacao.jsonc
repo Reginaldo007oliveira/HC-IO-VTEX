@@ -5,7 +5,7 @@
         ],
         "props": {
 
-               "defaultActiveTabId": "home1"
+               "defaultActiveTabId": "promocao"
              }
       },
       "tab-list#home": {
@@ -47,7 +47,7 @@
       },
 
       "tab-content.item#home1": {
-        "children": [ "list-context.image-list#banner-home","rich-text#home1"],
+        "children": [ "list-context.image-list#banner-home","list-context.product-list#UpMedal","rich-text#home1"],
         "props": {
           "tabId": "promocao"
         }
