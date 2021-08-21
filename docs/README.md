@@ -1,14 +1,10 @@
-# Minimum Boilerplate Theme
+# Projeto Upmedal, criado como projeto final do curso Hiring Coders
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
-
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
-
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+Projeto desenvolvido ultilizando a tecnologia Vtex IO
 
 ## Configuration
 
-### Step 1 -  Basic setup
+### No projeto foi utilizado o Minimo Boilerplate do Vtex IO
 
 Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
 
