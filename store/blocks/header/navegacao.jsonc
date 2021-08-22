@@ -13,6 +13,7 @@
       },
       "tab-list.item#home1": {
         "props": {
+          "name":"nome",
           "tabId": "promocao",
           "label": "PROMOÇÃO",
           "blockClass": "newvibe",
@@ -47,7 +48,10 @@
       },
 
       "tab-content.item#home1": {
-        "children": [ "list-context.image-list#banner-home","list-context.product-list#UpMedal","rich-text#home1"],
+        "children": [ "list-context.image-list#banner-home",
+          "rich-text#home1",
+          "list-context.product-list#UpMedalDois",
+          "list-context.product-list#UpMedal"],
         "props": {
           "tabId": "promocao"
         }
@@ -62,7 +66,7 @@
       },
 
       "tab-content.item#home3": {
-        "children": ["rich-text#home3"],
+        "children": ["list-context.image-list#banner-home","rich-text#home3", "list-context.product-list#UpMedal"],
         "props": {
           "tabId": "Palmeiras"
         }

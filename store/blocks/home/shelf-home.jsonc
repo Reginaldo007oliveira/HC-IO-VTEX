@@ -1,0 +1,35 @@
+{
+ 
+    "list-context.product-list#UpMedalDois": {
+        "blocks": ["product-summary.shelf#Home"],
+        "children": ["slider-layout#demo-productsUpMedalDois"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+    
+    
+     "slider-layout#demo-productsUpMedalDois": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+      },
+    
+     "product-summary.shelf#Home": {
+        "children": [
+            "product-summary-name",
+            //"product-summary-description",
+            "product-summary-image",
+            "product-summary-price",
+            "product-summary-sku-selector",
+            "product-summary-buy-button"
+        ]
+      }
+  }
