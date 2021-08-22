@@ -12,11 +12,11 @@
      "slider-layout#demo-productsUpMedalDois": {
         "props": {
           "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 3,
+            "desktop": 1,
+            "tablet": 1,
             "phone": 1
           },
-          "infinite": true,
+          "infinite": false,
           "fullWidth": false,
           "blockClass": "shelf"
         }

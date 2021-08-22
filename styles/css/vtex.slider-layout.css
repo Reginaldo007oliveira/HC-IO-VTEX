@@ -16,13 +16,13 @@
 }
 
 .layoutContainer--shelf {
-  margin-top: 20px;
+  margin-top: 2px;
   margin-bottom: 20px;
   max-width: 96rem;
 }
 
 .slide--shelf {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   padding-left: .5rem;
   padding-right: .5rem;
 }
