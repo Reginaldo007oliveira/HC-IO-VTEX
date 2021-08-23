@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#departaments": {
+      "props": {
+        "blockClass": "departament-row"
+      },
+      "children": ["flex-layout.col#departaments"]
+    },
+    "flex-layout.col#departaments": {
+      "children": [
+        "rich-text#departament",
+        "flex-layout.row#departaments-row-1"
+        
+      ]
+    },
+    "rich-text#departament": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "### Aproveitem nossas ofertas",
+        "blockClass": "departament-title"
+      }
+    },
+    "flex-layout.row#departaments-row-1": {
+      "children": [
+        "list-context.product-list#UpMedalDois",
+          "list-context.product-list#UpMedal"]
+    }
+ 
+ 
+  }
+  

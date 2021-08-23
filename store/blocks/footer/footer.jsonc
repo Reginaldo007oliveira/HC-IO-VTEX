@@ -1,26 +1,116 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+  "sticky-layout#footer": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "sticky-footer",
+      "position": "bottom"
+    },
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#footerMenu",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#footerMenu": {
+    "children": 
+    ["vtex.menu@2.x:menu#footerMenu"
+    
+    ],
+
+    "props": {
+      "width": "auto"
+    }
+  },
+  "vtex.menu@2.x:menu#footerMenu": {
+    "children": [
+    
+      "menu-item#desafios",
+      "menu-item#loja",
+      "menu-item#suporte"
+    ]
+  },
+
+  // "login": {
+  //   "props": {
+  //     "emailAndPasswordTitle": "LOG-IN",
+  //     "accessCodeTitle": "Access Code LOG-IN",
+  //     "emailPlaceholder": "e-mail",
+  //     "passwordPlaceholder": "password",
+  //     "showPasswordVerificationIntoTooltip": true,
+  //     "logInButtonBehavior": "link"
+  //   }
+  // },
+  "menu-item#desafios": {
+    "props": {
+      "id": "menu-item-desafios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Desafios",
+        "text": "DESAFIOS"
+      },
+      "iconProps": {
+        "id": "mpa-filter--filled",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "green",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+  "menu-item#loja": {
+    "props": {
+      "id": "menu-item-loja",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Loja",
+        "text": "LOJA"
+      },
+      "iconProps": {
+        "id": "hpa-cart",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "green",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+
+  //Para o WhatsApp, usei o gerador de link. Não coloquei um link com número válido.
+  "menu-item#suporte": {
+    "props": {
+      "id": "menu-item-suporte",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.convertte.com.br/gerador-link-whatsapp/",
+        "noFollow": false,
+        "tagTitle": "Suporte",
+        "text": "SUPORTE"
+      },
+      "iconProps": {
+        "id": "hpa-telemarketing",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "green",
+        "mutedClassName": "c-action-primary"
+      }
     }
   }
 }

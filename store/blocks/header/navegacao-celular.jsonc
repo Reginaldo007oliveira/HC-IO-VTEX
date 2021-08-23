@@ -1,0 +1,95 @@
+{
+    "vtex.menu@2.x:menu#Upmedals": {
+      "children": ["flex-layout.row#Upmedal"],
+  
+      "props": {
+        "blockClass": "ClassMenuMascInterno"
+      }
+    },
+  
+    "flex-layout.row#Upmedal": {
+      "children": [
+        "menu-item#promocoes",
+        "menu-item#corinthians",
+        "menu-item#palmeiras",
+        "menu-item#signos"
+      ],
+      "props": {
+        "fullWidth": true,
+        "paddingBottom": "6",
+        "paddingTop": "59",
+  
+        "marginTop": "49"
+      }
+    },
+  
+    "menu-item#promocoes": {
+      "props": {
+        "blockClass": "",
+        "id": "promocoes",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Promoções",
+          "text": "Promoções"
+        }
+      },
+      "blocks": []
+    },
+    "menu-item#corinthians": {
+      "props": {
+        "blockClass": "",
+        "id": "corinthias",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Corinthias",
+          "text": "Corinthians"
+        }
+      },
+      "blocks": []
+    },
+    "menu-item#palmeiras": {
+      "props": {
+        "blockClass": "",
+        "id": "palmeiras",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Palmeiras",
+          "text": "Palmeiras"
+        }
+      },
+      "blocks": []
+    },
+    "menu-item#signos": {
+      "props": {
+        "blockClass": "",
+        "id": "signos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Signos",
+          "text": "Signos"
+        }
+      },
+      "blocks": []
+    }
+  }
+  

@@ -1,0 +1,43 @@
+{
+
+
+    "header-layout.mobile": {
+        "children": ["sticky-layout#mobile"]
+      },
+      "sticky-layout#mobile": {
+        "children": ["flex-layout.row#mobile"]
+      },
+      "flex-layout.row#mobile": {
+        "children": [
+          "drawer",
+          "logo",
+          "flex-layout.col#spacer",
+          "login",
+          "minicart.v2"
+        ],
+        "props": {
+          
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true,
+          "blockClass":  "main-header-desktop"
+        }
+      },
+      "drawer": {
+        "children": [
+          "menu#drawer"
+        ]
+      },
+      
+      "menu#drawer": {
+        "children": [
+            "menu-item#promocoes",
+            "menu-item#corinthians",
+            "menu-item#palmeiras",
+            "menu-item#signos"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      } 
+}

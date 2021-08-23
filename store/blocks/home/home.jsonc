@@ -2,7 +2,7 @@
   "store.home": { 
     "blocks": [
      "tab-layout#home",
-     "footer"
+     "sticky-layout#footer"
       //"rich-text"
     ]
   },
