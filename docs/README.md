@@ -1,62 +1,74 @@
-# Minimum Boilerplate Theme
+# Desafio 3 - Hiring Coders/Gama Academy
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+<center><img src="../assets/upmedal.png"></center>
+<center><h3>Desenvolvido em VTEX IO</h3></center>
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
 
-## Configuration
 
-### Step 1 -  Basic setup
+### Projeto
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
+Projeto desenvolvido para cumprimento do 3º desafio do Hiring Coders + Gama Academy.
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+### Objetivo e Entregas
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+Criação de uma loja e-commerce para o cliente UPMedal.com.
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+Para isso deve-se fazer as seguintes entregas:
 
-Then, access the repository's directory using your terminal. 
+1. Criar a loja a partir do boiler template padrão da Vtex IO;
+2. Replicar a página [modelo](https://www.upmedal.com/desafios) -  A réplica não precisa ser uma cópia fiel, mas é bom tentar se aproximar ao máximo;
+3. Utilizar Markdown e CSS para formatação;
+4. Priorizar arquivos do tipo **.jsonc** para inserção de comentários nos blocos criados;
+4. Usar componentes como: Flex Layout, Slider Layout, Tab Layout, Product List, Minicart
+5. Quando listar os produtos, deixar 8 itens por página e colocar filtro de busca por categoria na Home;
+6. Fazer layout para dispositivo mobile;
+7. Inserir aba de suporte por WhatsApp;
+8. Criar componente para cadastro de possíveis clientes(lead), contendo: **Nome, E-mail e Telefone**; 
+9. Armazenar dados do componente lead em API Gateway na AWS(Opcional: criar item no admin. para armazenar o conteúdo cadastrado pela lead);
+10. Código-fonte no github com o arquivo README detalhando as funcionalidades da programação.
 
-### Step 3 - Editing the `Manifest.json`
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
 
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+O desenvolvimento foi baseado nos seguintes passos:
 
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
+1. Clone do repositório modelo Boilerplate;
+2. Aplicação e teste dos componentes sugeridos na documentação do desafio;
+3. Estilização através de arquivo CSS e do style.json;
+4. Construção do Readme.
 
-### Step 4 -  Installing required apps
+Obs.: Readme e versionamento no GitHub foram feitos ao longo do desenvolvimento.
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+### Documentação
 
-Run  `vtex list`  and check whether those apps are already installed. 
+[Vtex Developer](https://developers.vtex.com/)
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
 
-### Step 5 -  Uninstalling any existing theme
+### Tecnologias utilizadas   
 
-By running `vtex list`,  you can verify if any theme is installed.
+Para este projeto inicializar, você precisará ter instalado em sua máquina:
 
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
+1. Toolbelt da Vtex;
+2. Node.js(versão igual ou superior a v12.18.3);
+3. Controle de versionamento(Git);
+4. IDE-Ambiente de desenvolvimento integrado(Visual Studio Code).
 
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
 
-```json
-vtex uninstall vtex.store-theme
-```
 
-### Step 6- Run and preview your store
 
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
 
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
 
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+### Agradecimentos
+
+Agradeço primeiro a Deus por ter me dado forças para concluir esse projeto. 
+
+### Autor
+
+<a href="https://github.com/reginaldo007oliveira">
+
+ 
+ <br />
+ <sub><b>Reginaldo Luiz de Oliveira</b></sub></a> 
+
+
+
